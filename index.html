@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Breadr</title>
+</head>
+<body>
+<h1>Breadr</h1>
+
+<h2>Parameters</h1>
+<p><label>Loaves: <input type="text" name="loaves" value="1">
+<p>Fat:
+  <label><input type="radio" name="fat" value="oil"> Oil</label>
+  <label><input type="radio" name="fat" value="butter"> Butter</label>
+<p>Sugar:
+  <label><input type="radio" name="sugar" value="white"> White Sugar</label>
+  <label><input type="radio" name="sugar" value="yearst"> Honey</label>
+<p>Yeast:
+  <label><input type="radio" name="yeast" value="active"> Active Dry</label>
+  <label><input type="radio" name="yeast" value="instant"> Instant</label>
+<p>Add:
+  <label><input type="checkbox" name="flax-meal"> Flax Meal</label>
+  <label><input type="checkbox" name="wheat-germ"> Wheat Germ</label>
+
+<h2>Recipe</h1>
+<p><input type="submit" value="Generate Recipe">
+<p><pre id="recipe"></pre>
+  
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="index.js" type="text/javascript" charset="utf-8"></script>
+<script src="bread.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
